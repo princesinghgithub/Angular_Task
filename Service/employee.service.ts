@@ -5,14 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class EmployeeService {
 
-  // public user:User={
-  //   name:'',
-  //   email:'',
-  //   password:'',
-  //   desigination:'',
-  //   bio:'',
-  //   terms:false
-  }
   
 
 
