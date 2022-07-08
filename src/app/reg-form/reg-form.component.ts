@@ -32,6 +32,7 @@ export class RegFormComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 public submitRegister():void{
   console.log(this.user)
 }
