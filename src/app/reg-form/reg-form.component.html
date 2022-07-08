@@ -1,0 +1,57 @@
+<nav class="navbar navbar-dark bg-danger  mt-3">
+    <a href="" class="navbar-brand"> Angular Registration Form </a>
+</nav>
+
+
+<!-- <pre> {{user |json}}</pre> -->
+<section class="mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card shadow-lg ">
+                    <div class="card-header bg-warning">
+                        <p class="h3">Registration Form</p>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form (submit)="submitRegister()">
+
+                            <div class="mb-2">
+                                
+                                <input name="name"[(ngModel)]="user.name"
+                                type="text" class="form-control" placeholder="Enter the name">
+                            </div>
+                            <div class="mb-2">
+                                <input  name="email"[(ngModel)]="user.email" type="text" class="form-control" placeholder="Enter the Email">
+                            </div>
+                            <div class="mb-2">
+                                <input name="password"[(ngModel)]="user.password"  type="password" class="form-control" placeholder="Enter the password">
+                            </div>
+                            <div class="mb-2">
+                                <select name=" desigination"[(ngModel)]="user. desigination" class="form-control">
+                                    <option value="">Select Desiginition</option>
+                                    <option value="software engineer">software engineer</option>
+                                    <option value=" Sr.software engineer"> Sr.software engineer</option>
+                                    <option value="Tech lead">tech lead</option>
+                                    <option value=" Project Maneger"> Project Maneger</option>
+                                </select>
+                            </div>
+                            <div class="mb-2">
+                                <textarea name="bio"[(ngModel)]="user.bio" rows="4" class="form-control" placeholder="bio"></textarea>
+                            </div>
+                            <div class="mb-2">
+                              <input  name="terms"[(ngModel)]="user.terms" type="checkbox" class="form-check-input"> Accept Terms
+                            </div>
+                            <div class="mb-2">
+                                <input type="submit" class="btn btn-warning btn-sm text-white" value="Register"> 
+                              </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
