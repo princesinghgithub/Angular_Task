@@ -1,0 +1,27 @@
+.class-item .class-item-text h2 {
+    font-size: 18px;
+}
+.class-item .class-item-text h2 a {
+    color: #000;
+}
+.class-item{
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    transition: .3s all ease;
+    z-index: 1;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.class-item:hover {
+    z-index: 2;
+    background: #c83660;
+    color: aliceblue;
+
+}
+.class-item,h2:hover{
+    color: aliceblue;
+}

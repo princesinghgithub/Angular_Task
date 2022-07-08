@@ -1,0 +1,15 @@
+
+  .footer-section p{
+    font-size: 1rem;
+    color: #989898;
+}
+.footer-section{
+    padding-top: 12rem;
+}
+.footer-links a {
+    color: #e83e8c;
+    line-height: 1rem;
+}
+.subbtn{
+    background-color: #e83e8c;
+}
